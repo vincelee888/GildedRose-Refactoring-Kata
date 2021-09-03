@@ -18,7 +18,7 @@ export const getItems = () => ([
 export function generateReport(gildedRose: GildedRose) {
     const outputLines: string[] = []
 
-    const days: number = 2;
+    const days: number = 30;
 
     for (let i = 0; i < days; i++) {
         outputLines.push("-------- day " + i + " --------");
